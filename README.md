@@ -32,7 +32,7 @@ The backend management system is accessible only to the management team. From th
 
 ## Frontend Interface
 
-To interact with the frontend interface of the Subscribe_System, please visit the [Subscribe_System Frontend Repository](https://generalclez.github.io/Subscribe_System/) for the frontend overview of the main project.
+To interact with the frontend interface of the Subscribe_System, please visit the [Subscribe_System Frontend Repository](https://github.com/generalclez/Subscribe_System) for the frontend overview of the main project.
 
 
 ## Contributing
