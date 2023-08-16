@@ -1,5 +1,5 @@
 # Subscribe-System-Backend-Management
-This is the backend management system for the Subscribe_System project. It provides essential backend operations for managing subscriptions and distributing "The Glory Journal" publication. It comprises of three different operations; send/post journal, subscriber list and reset status.
+This is the backend management system for the Subscribe_System project. It provides essential backend operations for managing subscriptions and distributing "The Glory Journal" publication. It comprises of three different operations; send/post journal, subscriber list and reset status. All these operation can be perform without going into the database.
 
 ![Subscribe_System Backend Management Preview]![backend](https://github.com/generalclez/Subscribe-System-Backend-Management/assets/127569066/80a7ba9c-d34d-4f1c-beef-37f11877e9a2)
 
@@ -9,29 +9,30 @@ This is the backend management system for the Subscribe_System project. It provi
 - [Introduction](#introduction)
 - [Deployment](#deployment)
 - [Usage](#usage)
+- [Frontend Interface](#Frontend Interface)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## Introduction
 
-This backend management system help to ensure the smooth distribution of "The Glory Journal" and other operations without going to the data base.
+This backend management system help to ensure the smooth distribution of "The Glory Journal" and other operations without going to the database.
+
 ## Deployment
 
 The Subscribe_System can be accessed through its local deployment using the following link:
 [Subscribe_System Local Deployment](https://generalclez.github.io/Subscribe-System-Backend-Management/)
 
-**Please Note:** The subscription functionality is currently not available in the local deployment. It will be added when the backend development is complete.
-
 ## Usage
 
 The backend management system is accessible only to the management team. From the main landing page, they can nevigate to the three other pages to perform the necessary operations at the backend.
 
-![Preview of other pages]
+![Preview of other pages]![222](https://github.com/generalclez/Subscribe-System-Backend-Management/assets/127569066/42ad28fd-b85f-48b8-bd11-11000c24c45a)
+
 
 ## Frontend Interface
 
-To interact with the frontend interface of the Subscribe_System, please visit the [Subscribe_System Frontend Repository](https://generalclez.github.io/Subscribe_System/) for a frontend overview.
+To interact with the frontend interface of the Subscribe_System, please visit the [Subscribe_System Frontend Repository](https://generalclez.github.io/Subscribe_System/) for the frontend overview of the main project.
 
 
 ## Contributing
