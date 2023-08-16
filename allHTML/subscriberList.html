@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Search Table</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        .container {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        a {
+            color: red;
+        }
+
+        a:hover {
+            color: green;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 justify-content-center m-auto">
+                <h1 class="pb-5 text-success">The Glory Journal Subscriber List</h1>
+                <div class="input-group mb-3 w-75">
+                    <input type="text" class="form-control" placeholder="Search..." id="searchInput">
+                    <div class="">
+                        <button class="btn btn-success" type="button" onclick="searchTable()">Search</button>
+                    </div>
+                </div>
+
+                <!-- table -->
+                <table class="table table-responsive table-hover fw-bold">
+                    <thead class="thead-dark">
+                        <tr>
+
+                            <th>Full Name</th>
+                            <th>Email</th>
+                            <th>Phone Number</th>
+                            <th>Country</th>
+                            <th>State</th>
+                            <th class="text-danger">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td>Clement Adegun</td>
+                            <td>adegunclement@gmail.com</td>
+                            <td>08165061080</td>
+                            <td>Nigeria</td>
+                            <td>Lagos</td>
+                            <td><a href="#">Delete</a></td>
+                        </tr>
+                        <tr>
+
+                            <td>John Femi</td>
+                            <td>adegunclement@gmail.com</td>
+                            <td>08165061080</td>
+                            <td>Nigeria</td>
+                            <td>Oyo</td>
+                            <td><a href="#">Delete</a></td>
+                        </tr>
+                        <tr>
+
+                            <td>Felix Ayomide</td>
+                            <td>adegunclement@gmail.com</td>
+                            <td>08165061080</td>
+                            <td>Nigeria</td>
+                            <td>Oyo</td>
+                            <td><a href="#">Delete</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <script src="../assets/subscriberList.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend FormField</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="container py-">
+        <form class="col-12 offset-md-3 col-md-6 bg-white p-5 shadow">
+            <h2 class="mb-4">SEND <span class="text-success fw-bold">THE GLORY JOURNAL</span></h2>
+            <div class="mainDiv w-75">
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" class="form-control shadow-sm" placeholder="Enter Journal Title" required>
+                </div>
+                <div class="form-group my-3">
+                    <label for="msg">Message:</label>
+                    <textarea class="form-control shadow-sm" id="msg" rows="5" placeholder="Message"></textarea>
+                </div>
+                <div class="w-25">
+                    <label for="file">Attachment:</label>
+                    <input type="file">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success mt-3 shadow-sm">SEND!</button>
+        </form>
+    </div>
+</body>
+
+</html>
